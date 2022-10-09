@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap');
+
+:root{
+	--sidebar-flex:1.5;
+	--condiv-flex:6;
+}
+
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Raleway';
+}
+
+h1{
+	font-size: 4rem;
+	font-weight: normal;
+	margin-bottom: 0.5em;
+}
+
+h2{
+	font-size: 2rem;
+	font-weight: normal;
+}
+
+p, li{
+	font-size: medium;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+nav{
+	position: relative;
+	top: 0px;
+	padding:60px 30px 0px 30px;
+	background: rgb(238, 150, 176);
+}
+
+nav ul{
+	font-size: 1.6rem;
+	text-align: center;
+	list-style-type: none;
+	margin: 50px;
+}
+
+.App{
+	display: flex;
+	width: 100vw;
+	min-height: 100vh;
+}
+
+.condiv{
+	background-color: #f9f4f9;
+	flex:var(--condiv-flex);
+	padding: 100px;
+}
+
+.home{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.home p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.profilepic{
+	height: 450px;
+	border-radius: 4px;
+	border-top: 20px solid rgba(255, 205, 227, 0.733);
+	overflow-y:hidden;
+	margin: 40px;
+	margin-top: 20px;
+}
+
+.card{
+	border:0px solid #9a9b9c;
+	margin:30px 0px 30px 0px;
+}
+
+.card p{
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+.card:hover{
+	background-color: #ffffff;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
